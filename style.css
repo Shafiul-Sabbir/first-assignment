@@ -50,9 +50,12 @@ h2{
     
 }
 .one-third{
-    width: 30%;
-    margin: 3.33%;
     box-shadow: 5px 5px 20px gray;
+    width: 30%;
+    margin-left: 3.33%;
+    margin-right: 3.33%;
+    padding: 10px;
+    border-radius: 10px;
     
 }
 
@@ -63,6 +66,11 @@ h2{
     margin: 0 auto;
     margin-bottom: 100px;
     box-shadow: 5px 5px 20px gray ;
+}
+.one-third img{
+    width: 100%;
+    float: center;
+    margin: 0 auto;
 }
 .followers{
     text-align: center;
