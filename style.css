@@ -8,7 +8,7 @@ body{
     background-color: green;
     color: white;
     display: flex;
-    height:30px;
+    height:40px;
 }
 .header a{
     color: white;
@@ -18,6 +18,8 @@ text-decoration: none;
 text-align: center;
 padding: 5px;
 padding-left: 20px;
+font-size: 20px;
+margin: 5px;
 
 }
 h1{
@@ -98,13 +100,31 @@ h2{
     text-align: center;
     width: 33%;
 }
+.chat {
+    width: 30%;
+    padding: 4px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+}
+input[type=text],
+[type=email],[type=box]
+ {
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    text-align: center;
+    height: 20px;
+    margin: 5px;
+}
 footer{
     text-align: center;
     background-color: black;
     height: 150px;
     padding: 20px;
 }
-
 .food{
     color:orangered;
     
@@ -112,8 +132,10 @@ footer{
 .net{
     color: grey;
 }
+
 img{
     width: 90%;
     float: center;
     margin: 0 auto;
 }
+
