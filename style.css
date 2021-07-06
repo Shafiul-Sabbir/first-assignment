@@ -36,6 +36,11 @@ h2{
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
 }
+img{
+    width: 90%;
+    float: center;
+    margin: 0 auto;
+}
 .recipies{
     text-align: center;
 }
@@ -89,9 +94,4 @@ footer{
 }
 .net{
     color: grey;
-}
-img{
-    width: 90%;
-    float: center;
-    margin: 0 auto;
 }
