@@ -1,3 +1,9 @@
+h1{
+    font-size:45px;
+}
+h2{
+    font: size 35px;
+}
 .skip-color{
     color: red;
 }
@@ -42,4 +48,37 @@
 }
 .dinner{
     width: 33%;
+}
+#social-site {
+    border-radius: 5px;
+}
+.youtube{
+    width: 33%;
+    text-align: center;
+}
+.instagram{
+    
+    width: 33%;
+     text-align: center;
+}
+
+.facebook{
+    
+    width: 33%;
+     text-align: center;
+
+}
+footer{
+    text-align: center;
+    background-color: black;
+    height: 150px;
+    padding: 20px;
+}
+
+.food{
+    color:orangered;
+    
+}
+.net{
+    color: grey;
 }
