@@ -1,6 +1,24 @@
 body{
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     margin: 0px;
+}
+.header{
+    width: 100%;
+    background-color: green;
+    color: white;
+    display: flex;
+    height:30px;
+}
+.header a{
+    color: white;
+display: flex;
+width:25%;
+text-decoration: none;
+text-align: center;
+padding: 5px;
+padding-left: 20px;
+
 }
 h1{
     font-size:45px;
@@ -38,6 +56,7 @@ h2{
 }
 .recipies{
     text-align: center;
+    height: 200px;
 }
 .food-pics{
     display: flex;
@@ -56,6 +75,7 @@ h2{
     margin-right: 3.33%;
     padding: 10px;
     border-radius: 10px;
+
     
 }
 
@@ -71,6 +91,8 @@ h2{
     width: 100%;
     float: center;
     margin: 0 auto;
+    border-radius: 10px;
+    height: 300px;
 }
 .followers{
     text-align: center;
