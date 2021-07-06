@@ -1,3 +1,7 @@
+body{
+    width: 100%;
+    margin: 0px;
+}
 h1{
     font-size:45px;
 }
@@ -14,6 +18,11 @@ h2{
 .half-width{
     width: 50%;
     padding-left: 3%;
+}
+.about-me{
+    width: 60%;
+    margin-top: 100px;
+    text-align: justify;
 }
 .link-button{
     background-image: linear-gradient(yellow,pink);
@@ -37,36 +46,27 @@ h2{
     align-items: center;
     margin-bottom: 100px;
     border-radius: 10px;
-    margin: 10px 50px;
-}
-.break-fast{
-    width: 33%;
+    height: 500px;
     
 }
-.lunch{
-    width: 33%;
+.one-third{
+    width: 30%;
+    margin: 3.33%;
+    box-shadow: 5px 5px 20px gray;
+    
 }
-.dinner{
-    width: 33%;
-}
+
 #social-site {
+    display: flex;
+    width: 80%;
     border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 20px gray ;
 }
-.youtube{
-    width: 33%;
+.followers{
     text-align: center;
-}
-.instagram{
-    
     width: 33%;
-     text-align: center;
-}
-
-.facebook{
-    
-    width: 33%;
-     text-align: center;
-
 }
 footer{
     text-align: center;
@@ -81,4 +81,9 @@ footer{
 }
 .net{
     color: grey;
+}
+img{
+    width: 90%;
+    float: center;
+    margin: 0 auto;
 }
