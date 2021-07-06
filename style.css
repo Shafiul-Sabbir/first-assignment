@@ -15,6 +15,31 @@
     padding:10px 30px;
     border-radius: 10px;
     text-decoration: none;
-    color: blue;
+    color: blue; 
+}
+.bg-banner{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+.recipies{
+    text-align: center;
+}
+.food-pics{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    margin: 10px 50px;
+}
+.break-fast{
+    width: 33%;
     
+}
+.lunch{
+    width: 33%;
+}
+.dinner{
+    width: 33%;
 }
